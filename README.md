@@ -1,4 +1,4 @@
-# Estimate the salary of a data scientist: Project overview
+# Estimate data science salaries: Project overview
 * Created a tool that can estimate data science salaries with a mean absolute error of $11k.  
 * Scraped data of 1000 companies from Glassdoor using selenium and python.  
 * Performed data cleaning on the data by extracting specific features from existing features.  
@@ -25,6 +25,11 @@ For the Indian version I'll have to search an other method to scrape data from G
 * Model building  
 * Flask productionization
 
-## Highlights
+## Highlights and performance of the models
+The Random Forest Regressor tends to perform the best among the chosen ones.
+*  *Random Forest Regressor:* MAE: 11.11507
+*  *Linear Regression:* MAE: 18.85362
+*  *Lasso Regression:* MAE: 19.66525
+
 **Word cloud on the description of job provided by the company**  
 ![alt text](https://github.com/shashanks33/ds_salary_project/blob/master/datacloud2.png "Word cloud on the description of job provided by the company")
