@@ -17,7 +17,7 @@ For the Indian version I'll have to search an other method to scrape data from G
 *Youtube tutorial:* https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg (Ken Jee)  
 *Word cloud article:* https://www.geeksforgeeks.org/generating-word-cloud-python/  
 *Flask productionization article:* https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2  
-
+*Install all the requirements:* ```pip install -r requirements.txt```
 ## **Steps involved**
 * Web scraping  
 * Data cleaning  
