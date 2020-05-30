@@ -1,12 +1,26 @@
-# Estimate the salary of a data scientist is the US
-Creating a tool that can estimate the salary of data scientists in the US by scraping data from Glassdoor.com.  
+# Estimate the salary of a data scientist: Project overview
+* Created a tool that can estimate data science salaries with a mean absolute error of $11k.  
+* Scraped data of 1000 companies from Glassdoor using selenium and python.  
+* Performed data cleaning on the data by extracting specific features from existing features.  
+* Performed explanatory data analysis to provide an insight on why a particular state pays less/more and why.  
+* Used and optimized Linear, Lasso, Random Forest Regressor, GridSearchCV to obtain the best model.  
+* Built a basic flask api for the client.  
+
 (Currently only for US. I'll try to do the same for India as well)  
 For the Indian version I'll have to search an other method to scrape data from Glassdoor since the websites for both the countries are different and I've configured Selenium to work with only the US website using the article mentioned below.  
 
 ## **Code and resources used**
 *Python version:* 3.7.7  
-*Packages:* pandas, numpy, selenium, nltk, wordcloud, matplotlib, seaborn  
+*Packages:* pandas, numpy, selenium, wordcloud, matplotlib, seaborn, json, pickle, flask  
 *Scraper link:* https://github.com/arapfaik/scraping-glassdoor-selenium  
 *Scraper Article:* https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
 *Youtube tutorial:* https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg (Ken Jee)  
 *Word cloud article:* https://www.geeksforgeeks.org/generating-word-cloud-python/  
+*Flask productionization article:* https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2  
+
+## **Steps involved**
+* Web scraping  
+* Data cleaning  
+* Explanatory Data Analysis  
+* Model building  
+* Flask productionization
