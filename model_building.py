@@ -103,3 +103,19 @@ mean_absolute_error(y_test, tpred_linear_model_lasso) #19.66525
 mean_absolute_error(y_test, tpred_rf_model) #11.11507
 
 mean_absolute_error(y_test, (tpred_rf_model+tpred_linear_model)/2) #14.208883
+
+
+# Saving the model
+import pickle
+
+file_name = "model_file.p"
+pickl = {'model': gs_model.best_estimator_}
+pickle.dump(pickl, open(file_name, "wb" ))
+
+with open(file_name, 'rb') as file:
+    data = pickle.load(file)
+    model = data['model']
+    
+model.predict(np.array(list(X_test.iloc[1,:])).reshape(1,-1))[0]
+
+list(X_test.iloc[1,:])
