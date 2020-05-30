@@ -26,4 +26,5 @@ For the Indian version I'll have to search an other method to scrape data from G
 * Flask productionization
 
 ## Highlights
-![alt text](https://github.com/shashanks33/ds_salary_project/blob/master/datacloud2.png "Data cloud on the description of job provided by the company")
+**Word cloud on the description of job provided by the company**  
+![alt text](https://github.com/shashanks33/ds_salary_project/blob/master/datacloud2.png "Word cloud on the description of job provided by the company")
