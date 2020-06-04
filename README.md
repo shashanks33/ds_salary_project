@@ -32,4 +32,4 @@ The Random Forest Regressor tends to perform the best among the chosen ones.
 *  *Lasso Regression:* MAE: 19.66525
 
 **Word cloud on the description of job provided by the company**  
-![alt text](https://github.com/shashanks33/ds_salary_project/blob/master/datacloud2.png "Word cloud on the description of job provided by the company")
+![alt text](https://github.com/shashanks33/ds_salary_project/blob/master/images/wc2.png "Word cloud on the description of job provided by the company")
